@@ -2,11 +2,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-### Note: .env file needs to be set as below:
+### Note: .env file needs to be created and set as below:
 REACT_APP_AUTH0_DOMAIN= *//your auth0 domain name*
+
 REACT_APP_AUTH0_CLIENT_ID= *//your auth0 client id*
+
 REACT_APP_AUTH0_CALLBACK_URL=http://localhost:3000/callback
+
 REACT_APP_AUTH0_AUDIENCE=http://localhost:3001/
+
 REACT_APP_API_URL=http://localhost:3001/
 
 In the project directory, you can run:
