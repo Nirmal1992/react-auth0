@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+nav {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(206, 26, 26),
+    rgb(204, 103, 120)
+  );
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  color: inherit;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 1rem 0;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+a:hover {
+  background-color: red;
+}
+
+.container {
+  padding: 5rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: orangered;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
